@@ -43,7 +43,7 @@ export class IqooComponent {
       console.log('Invalid admin ID:', adminId);
       return ''; // Provide a default image URL or an empty string
     }
-    return `http://localhost:3000/iqoo/${adminId}`;
+    return `https://imageupload-o4nv.onrender.com/iqoo/${adminId}`;
   }
 
   onImageLoad(): void {
